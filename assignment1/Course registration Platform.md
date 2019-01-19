@@ -5,26 +5,32 @@
 
 * Computer:
 > State: Processorname, ModelNo
+
 > Behaviour: isWorking(), restart()
 
 * Internet:
 > State: IPAdress, InternetType
+
 > Behaviour: Connect(), isAvailable() , retry()
 
 * Website:
 > State: URL
+
 > Behaviour: login(), logout()
 
 * Student:
 > State: name, age, studentId, password
+
 > Behaviour: list browseCourses(),  registerCourse(), resheduleCourses(), dropCourse() 
 
 * Course:
-> State: courseName, CourseDuration, StartDate, EndDate, 
+> State: courseName, CourseDuration, StartDate, EndDate
+
 > Behavior: register(),drop()
      
 * Account:
-> State: tutionFee, balance 
+> State: tutionFee, balance
+
 > Behaviour: pay() , confirm(), int getBalance()
 
 
